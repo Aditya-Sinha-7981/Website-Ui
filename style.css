@@ -87,6 +87,21 @@ body{
     margin: 0 auto;
 }
 
+.wrapper3{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.wrapper4{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 /* Body */
 
 
@@ -137,7 +152,25 @@ body{
 .landing-image{
     width: 70%;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.main-image{
+    height: 95%;
+}
+
+.logo-img{
+    display: flex;
+    height: 5%;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -70px;
+}
+
+.logoimg{
+    height: 50px;
+    margin: 0 5px;
 }
 
 .landing-image .landing-right-image{
@@ -411,9 +444,9 @@ body{
     align-content: center;
 }
 
-.landing5 .wrapper3{
+/* .landing5 .wrapper3{
     width: 90%;
-}
+} */
 
 .text4 .info4{
     flex-grow: 4;
@@ -437,4 +470,221 @@ body{
 
 .img4{
     width: 6vw;
+}
+
+/* Landing 6 */
+
+.landing6{
+    position: relative;
+    top: 2560px;
+    display: flex;
+    flex-direction: row;
+}
+
+.text5{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text5special1{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+}
+
+.text5special1 .heading5{
+    box-sizing: border-box;
+    border-radius: 25px;
+    color: white;
+    padding: 5px 20px;
+    font-size: 25px;
+    font-weight: 100;
+    background: #6A7EDA;
+    margin-bottom: 30px;
+}
+
+.text5special1 h2{
+    font-size: 4vw;
+    margin: 20px 0;
+    font-weight: 100;
+}
+
+.text5special1 .wording5{
+    font-family: 'Open Sans';
+    font-weight: 100;
+    width: 85%;
+    font-size: 1vw;
+}
+
+.text5special2{
+    height: 50%;
+    display: flex;
+    margin: 30px 0;
+    flex-direction: column;
+}
+
+.text5special3{
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.text5special4{
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.text5special5{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.text5special6{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.text5special6 .heading5special{
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.text5special6 .wording5special{
+    font-family: 'Open Sans';
+    font-weight: 100;
+    color: #727288;
+    font-size: 1.1vw;
+}
+
+.img6{
+    width: 5vw;
+}
+
+.info5{
+    width: 60%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.img5{
+    width: 38vw;
+}
+
+/* Landing 7 */
+
+.landing7{
+    position: relative;
+    top: 2800px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.text6{
+    width: 50%;
+}
+
+.text6 .heading6{
+    font-size: 23px;
+    font-weight: 100;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background: #6A7EDA;
+    color: white;
+    padding: 5px 25px;
+}
+
+.text6 h2{
+    font-size: 5vw;
+    margin: 60px 0;
+    font-weight: 100;
+}
+
+.text6 .wording6{
+    font-size: 1.1vw;
+    color: #727288;
+    font-family: 'Open Sans';
+    line-height: 35px;
+}
+
+.info6{
+    width: 50%;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    border: solid;
+    border-color: orange;
+    border-radius: 25px;
+}
+
+.itemspecial1{
+    height: 80%;
+    margin: 60px;
+}
+
+.itemspecial1 .stuff{
+    font-family: 'Open Sans';
+    font-size: 1.2vw;
+}
+
+.itemspecial2{
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.itemspecial3{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+
+.owl-carousel .owl-item .imgseven{
+    border-radius: 50%;
+    width: 110px;
+    height: 100px;
+    margin: 0 20px;
+}
+
+.itemspecial4{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.itemspecial5 p{
+    font-size: 25px;
+}
+
+.itemspecial6 p{
+    font-size: 16px;
+    margin: 10px 0;
+    font-family: 'Open Sans';
+    color: #727288;
 }
