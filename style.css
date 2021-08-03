@@ -30,7 +30,7 @@ body{
     display: flex;
     flex-direction: row;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     width: 100%;
     justify-content: center;
     background-color: #223549;
@@ -101,6 +101,29 @@ body{
     justify-content: center;
     align-items: flex-start;
 }
+
+.wrapper5{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+}
+
+.wrapper6{
+    width: 80%;
+    display: flex;
+    margin: 90px auto 20px auto;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.wrapper7{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto 10px auto;
+}
+
 
 /* Body */
 
@@ -687,4 +710,334 @@ body{
     margin: 10px 0;
     font-family: 'Open Sans';
     color: #727288;
+}
+
+/* Landing 8 */
+
+.landing8{
+    position: relative;
+    top: 3120px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    flex-grow: 5;
+}
+
+.info7{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Landing 9 */
+
+.landing9{
+    position: relative;
+    top: 3450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.text8{
+    height: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.text8 .heading8{
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background: #6A7EDA;
+    padding: 5px 25px;
+    color: white;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.text8 h2{
+    font-size: 4vw;
+    font-weight: 100;
+    margin: 20px 0;
+}
+
+.text8 .wording8{
+    font-family: 'Open Sans';
+    color: #727288;
+    font-size: 1.1vw;
+    width: 60%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.info8{
+    height: 70%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-grow: 3;
+}
+
+.info8 .boxdesign{
+    border: solid;
+    width: 30%;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border-color: #EC663D;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    border-width: 1px;
+}
+
+.boxdesign1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.boxdesign1 .heading9{
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.boxdesign1 h2{
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+.boxdesign1 .dotone{
+    margin: 20px 0;
+}
+
+.boxdesign1 .wording9{
+    font-family: 'Open Sans';
+    margin: 5px 0;
+    color: #727288;
+}
+
+.boxdesign1 a{
+    text-decoration: none;
+    font-family: 'Open Sans';
+    border: solid;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border-color: #EC663D;
+    color: #EC663D;
+    margin-top: 50px;
+    padding: 10px 55px;
+}
+
+.landing10{
+    position: relative;
+    top: 3700px;
+    height: 100%;
+    background: url(Images/available\ get\ it\ now.png);
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.text10{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 120px 0;
+}
+
+.text10 h2{
+    color: white;
+    font-size: 4vw;
+    font-weight: 100;
+}
+
+.text10 p{
+    font-family: 'Open Sans';
+    color: white;
+    font-size: 1.2vw;
+    font-weight: 100;
+}
+
+.info10{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+}
+
+.info10 a{
+    text-decoration: none;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background: #EC663D;
+    padding: 10px 60px;
+    font-size: 25px;
+    font-weight: 100;
+    margin-right: 5vw;
+    margin-top: 25px;
+}
+
+/* Ending */
+
+.ending{
+    position: relative;
+    top: 3700px;
+    width: 100%;
+    background: #223549;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.social{
+    color: white;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.social h2{
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.images .logoimg2{
+    height: 3.3vw;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    color: white;
+    font-weight: 100;
+    justify-content: flex-start;
+    width: 25%;
+}
+
+.contact h2{
+    margin-bottom: 40px;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.contact .contact1{
+    color: #727288;
+    font-family: 'Open Sans';
+    font-size: 1.2vw;
+}
+
+.contact a{
+    text-decoration: none;
+    font-family: 'Open Sans';
+    color: white;
+    font-size: 1vw;
+    margin: 25px 0;
+}
+
+.contact .mobile{
+    font-family: 'Open Sans';
+    font-size: 1vw;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: white;
+    width: 25%;
+}
+
+.menu h2{
+    margin-bottom: 40px;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.menu p{
+    font-family: 'Open Sans';
+    margin-bottom: 25px;
+    font-size: 1.1vw;
+}
+
+.subscribe{
+    display: flex;
+    width: 25%;
+    color: white;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: flex-start;
+}
+
+.subscribe h2{
+    font-weight: 100;
+}
+
+.line3{
+    height: 10%;
+}
+
+.endingtext{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 40px 0;
+}
+
+.endingleft{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.endingleft p{
+    color: white;
+    margin-right: 120px;
+    font-family: 'Open Sans';
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.endingright{
+    width: 50%;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.endingright p{
+    color: #727288;
+    font-family: 'Open Sans';
+    font-size: 17px;
+    font-weight: 100;
 }
