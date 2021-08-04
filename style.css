@@ -185,15 +185,26 @@ body{
 
 .logo-img{
     display: flex;
-    height: 5%;
     flex-direction: row;
     justify-content: center;
     margin-top: -70px;
 }
 
-.logoimg{
-    height: 50px;
-    margin: 0 5px;
+.logo-img a{
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background: #EC663D;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
 .landing-image .landing-right-image{
@@ -923,8 +934,16 @@ body{
     font-weight: 100;
 }
 
-.images .logoimg2{
-    height: 3.3vw;
+.icons a{
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background: #EC663D;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 10px;
 }
 
 .contact{
