@@ -17,8 +17,8 @@ body{
 
 .wrapper{
     max-width: 1200px;
-    margin: 0 auto;
     width: 100%;
+    margin: 0 auto;
 }
 
 /* navbar */
@@ -46,6 +46,9 @@ nav{
 
 nav .logo{
     width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 nav .text{
@@ -158,6 +161,12 @@ nav .text ul li .final-btn{
     flex-direction: row;
     justify-content: center;
     margin-top: -70px;
+}
+
+.logo-img a i.fab {
+    display: inline-block;
+    border-radius: 60px;
+    padding: 0.1em 0.2em;
 }
 
 .logo-img a{
@@ -650,7 +659,7 @@ figure .img3{
     left: 50%;
 }
 
-.item{
+.itemT-inner{
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -729,8 +738,15 @@ figure .img3{
     flex-grow: 5;
 }
 
-.Icons{
-    width: 20%;
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.itemL-inner{
+    width: 7vw;
     display: flex;
     justify-content: center;
 }
@@ -853,6 +869,7 @@ figure .img3{
     color: #EC663D;
     margin-top: 50px;
     padding: 10px 55px;
+    font-size: 1vw;
 }
 
 /* Section: Ending */
@@ -1064,6 +1081,8 @@ figure .img3{
     border-radius: 35px;
     padding: 15px 80px 13px 20px;
     font-family: 'Open Sans';
+    outline: none;
     font-weight: 500;
     font-size: 15px;
 }
+
