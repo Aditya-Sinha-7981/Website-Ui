@@ -1086,3 +1086,32 @@ figure .img3{
     font-size: 15px;
 }
 
+/* Testing */
+
+.contextMenu-outer{
+    color: black;
+    z-index: 20;
+    background-color: white;
+    border: 1px solid #cccccc;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    display: none;
+    position: sticky;
+    top: 00;
+    left: 0;
+    width: 200px;
+}
+
+.contextMenu-inner a{
+    text-decoration: none;
+    color: black;
+}
+
+.contextMenu-inner{
+    cursor: pointer;
+    padding: 8px 15px;
+}
+
+.contextMenu-inner:hover{
+    background-color: #f8f8f8;
+}
