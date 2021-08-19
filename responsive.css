@@ -1,0 +1,104 @@
+@media screen and (max-width: 768px) {
+
+    /* Wrapper */
+
+    .wrapper{
+        max-width: none;
+        width: 90%;
+    }
+
+    /* Navbar */
+
+    nav .text ul li{
+        margin: 0;
+    }
+
+    /* Section: Landing */
+
+    .landing{
+        height: 700px;
+    }
+
+    .landing .wrapper article{
+        margin-top: 250px;
+    }
+
+    figure .main-image .landing-right-image{
+        margin-top: 4vh;
+    }
+
+    .logo-img{
+        margin: 0;
+    }
+
+    .landing .text a{
+        padding: 0;
+    }
+
+    /* Section: About */
+
+    .about header a{
+        padding: 0;
+        width: 13vw;
+        text-align: center;
+        height: 5vh;
+    }
+
+    /* Section: FAQ */
+
+    .FAQ header .textFAQ p{
+        font-size: 1.3vw;
+    }
+
+    p.accordian-content {
+        line-height: 25px;
+    }
+
+    /* Section: PIFA */
+
+    .imgPIFA {
+        width: 7vw;
+    }
+
+    .PIFA .wrapper article header figure p{
+        font-size: 1.2vw;
+    }
+
+    /* Section: Services */
+
+    .services .wrapper article aside header p{
+        font-size: 1.3vw;
+    }
+
+    /* Section: Testimonials */
+
+    .itemT-inner{
+        width: 75%;
+    }
+
+    /* Section: Pricing */
+
+    .boxdesign-inner a{
+        width: 20vw;
+        text-align: center;
+        height: 4.5vh;
+        padding: 0;
+    }
+
+    .pricing .wrapper article header p{
+        font-size: 1.4vw;
+        line-height: 30px;
+    }
+
+    /* Section: footer */
+
+    .icons a{
+        font-size: 15px;
+        width: 40px;
+        height: 40px;
+    }
+
+    #Email{
+        font-size: 10px;
+    }
+}

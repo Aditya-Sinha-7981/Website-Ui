@@ -5,7 +5,7 @@ const accordian1 = document.querySelector('.accordianG')
 const accordian2 = document.querySelector('.accordianC')
 const accordian3 = document.querySelector('.accordianT')
 const content = document.querySelector('.accordian-content')
-const navbar = document.querySelector('.nav');
+const navbar = document.querySelector('.nav'); 
 
 
 
